@@ -1,5 +1,70 @@
-#countdown {
-    font-size: 48px;
-  }
+body {
+  font-size: 16px;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.text-accent {
+  color: #FFA500;
+}
+
+.btn-accent {
+  background-color: #FFA500;
+  color: white;
+}
+
+.airbnb-thumbnail {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.timeline h4 {
+  margin-bottom: 20px;
+  color: #FFA500;
+}
+
+.timeline > div {
+  padding: 10px;
+  border-bottom: 1px solid #333;
+  display: flex;
+  align-items: center;
+}
+
+.timeline > div i {
+  margin-right: 15px;
+  color: #FFA500;
+}
+
+.dark-card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card-header {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+    
+    .container-fluid {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
   
