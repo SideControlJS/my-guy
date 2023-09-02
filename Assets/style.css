@@ -1,63 +1,51 @@
 body {
   font-size: 16px;
-  background-color: #f2f2f2;
+  background-color: #f5f5f5;
   color: #333;
 }
 
-.text-main {
-  color: #00af87;
-}
-
-.text-sub {
-  color: #555555;
-}
-
-.card {
-  background-color: #ffffff;
-  color: #333;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.trip-card {
-  border: 1px solid #d4d4d4;
+#countdown {
+  font-size: 48px;
+  color: #28a745;
 }
 
 .airbnb-thumbnail {
-  width: 50px;
+  width: 100px;
   height: auto;
 }
 
-.timeline {
-  position: relative;
-  max-width: 800px;
+.container {
   margin: 0 auto;
+  padding: 15px;
+  max-width: 1200px;
 }
 
-.timeline > div {
+.event-card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.event-card i {
+  margin-right: 10px;
+  color: #28a745;
+}
+
+.event-date {
+  background-color: #28a745;
   padding: 10px;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
-
-
-/* Media queries for mobile responsiveness */
 @media (max-width: 767px) {
-  .container {
-    padding: 10px;
-  }
-
-  h1 {
-    font-size: 24px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    padding: 20px;
-  }
-
-  .airbnb-thumbnail {
-    width: 100px;
+  body {
+    font-size: 14px;
   }
 }
 
