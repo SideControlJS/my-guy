@@ -84,11 +84,40 @@ body {
 }
 
 /* Media Query */
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   body {
-    font-size: 14px;
+    font-size: 16px; /* Increased font size */
+    line-height: 1.8; /* Increased line height */
+  }
+
+  .container {
+    padding: 15px; /* Less padding to take up more space */
+    max-width: 100%; /* Allow the container to expand fully */
+  }
+
+  .title {
+    font-size: 1.8rem; /* Slightly smaller than desktop but still readable */
+  }
+
+  .countdown {
+    font-size: 1.4rem; /* Slightly smaller than desktop but still readable */
+  }
+
+  .sub-heading {
+    font-size: 1.1rem; /* Increased size for better readability */
+  }
+
+  .card {
+    margin: 15px 0; /* Less vertical margin to fit more content */
+  }
+
+  .btn {
+    padding: 12px 24px; /* Bigger buttons are easier to tap */
+  }
+
+  .event-item {
+    padding: 12px; /* Increased padding for readability */
   }
 }
-
 
   
