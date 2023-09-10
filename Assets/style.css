@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #F3F4F6; /* A light shade of grayish-blue for the background */
-  color: #333333; /* Dark gray text color */
+  background-color: #F0F4F8; /* Lighter background for a clean look */
+  color: #333;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -11,9 +11,8 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #FFFFFF; /* Pure white background for container */
-  border-radius: 8px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background: #ffffff; /* White background for the container */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Add some shadow */
 }
 
 .title {
@@ -86,37 +85,44 @@ body {
 /* Media Query */
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 16px; /* Increased font size */
-    line-height: 1.8; /* Increased line height */
+    font-size: 18px;  /* Increased from 16px */
+    line-height: 1.8;
   }
 
   .container {
-    padding: 15px; /* Less padding to take up more space */
-    max-width: 100%; /* Allow the container to expand fully */
+    padding: 20px;  /* Increased padding */
+    box-shadow: none;  /* Remove shadow to fit screen better */
+  }
+
+  .title, .countdown, .sub-heading {
+    text-align: center;  /* Center align these elements */
   }
 
   .title {
-    font-size: 1.8rem; /* Slightly smaller than desktop but still readable */
+    font-size: 2rem;  /* Much larger font size */
+    margin-bottom: 30px;  /* Add some bottom margin */
   }
 
   .countdown {
-    font-size: 1.4rem; /* Slightly smaller than desktop but still readable */
+    font-size: 1.6rem;  /* Increase size for readability */
+    margin-bottom: 30px;  /* Add some bottom margin */
   }
 
   .sub-heading {
-    font-size: 1.1rem; /* Increased size for better readability */
+    font-size: 1.4rem;  /* Increase size for readability */
+    margin-bottom: 25px;  /* Add some bottom margin */
   }
 
-  .card {
-    margin: 15px 0; /* Less vertical margin to fit more content */
+  .card, .btn, .event-item {
+    margin-bottom: 20px;  /* Add some bottom margin for each item */
   }
 
   .btn {
-    padding: 12px 24px; /* Bigger buttons are easier to tap */
+    padding: 15px 30px;  /* Larger buttons */
   }
 
   .event-item {
-    padding: 12px; /* Increased padding for readability */
+    padding: 15px 0;  /* More padding for each event item */
   }
 }
 
