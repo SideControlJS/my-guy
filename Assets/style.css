@@ -85,8 +85,8 @@ body {
 /* Media Query */
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 18px;  /* Increased from 16px */
-    line-height: 1.8;
+    font-size: 25px;  /* Increased from 16px */
+    line-height: 2.5;
   }
 
   .container {
@@ -99,7 +99,7 @@ body {
   }
 
   .title {
-    font-size: 2rem;  /* Much larger font size */
+    font-size: 3rem;  /* Much larger font size */
     margin-bottom: 30px;  /* Add some bottom margin */
   }
 
@@ -109,7 +109,7 @@ body {
   }
 
   .sub-heading {
-    font-size: 1.4rem;  /* Increase size for readability */
+    font-size: 1.6rem;  /* Increase size for readability */
     margin-bottom: 25px;  /* Add some bottom margin */
   }
 
