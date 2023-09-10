@@ -23,13 +23,15 @@ let x = setInterval(function() {
 document.addEventListener("DOMContentLoaded", function() {
   const itinerary = {
     "9/22": [
+      //alternate icons once confirmed: Board Games/Trivia = "fas fa-solid fa-dice"
       { event: "Pick up Phil & Gio from airport <b>(Note: Frontier most likely has a flight that lands at 3:28 PM)</b>",  icon: "fas fa-plane-arrival" },
       { event: "Arrive at Airbnb - Evening", icon: "fas fa-home" },
       { event: "Disney Springs (Jaleo and M&M World)", icon: "fas fa-glass-cheers" },
-      { event: "Board Games or Trivia", icon: "fas fa-dice" }
+      { event: "Board Games or Trivia - TBD/Phil to confirm", icon: "fas fa-question-circle" },
+      { event: "Gio's Passion Project Demo/Event - TBD", icon: "fas fa-question-circle" },
     ],
     "9/23": [
-      { event: "Breakfast - TBD", icon: "fas fa-utensils" },
+      { event: "Breakfast - TBD", icon: "fas fa-question-circle" },
       { event: "Wade's Coffee Demonstration", icon: "fas fa-coffee" },
       { event: "Jiu Jitsu Session with Jesse - Before Lunch", icon: "fas fa-fist-raised" },
       { event: "Lunch - Keldon’s Nashville Hot (& Whiskey Tasting)", icon: "fas fa-drumstick-bite" },
@@ -39,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function() {
       
     ],
     "9/24": [
-      { event: "Brunch/Coffee - TBD", icon: "fas fa-mug-hot" },
+      //alternate icons once confirmed: Brunch/Coffe = "fas fa-mug-hot"
+      { event: "Brunch/Coffee - TBD", icon: "fas fa-question-circle" },
       { event: "Taking Phil & Gio to the Airport - TBD", icon: "fas fa-plane-departure" }
     ]
 
