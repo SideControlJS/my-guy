@@ -23,7 +23,7 @@ let x = setInterval(function() {
 document.addEventListener("DOMContentLoaded", function() {
   const itinerary = {
     "9/22": [
-      { event: "Pick up Phil from airport <b>(Note: Frontier most likely has a flight that lands at 3:28 PM)</b>",  icon: "fas fa-plane-arrival" },
+      { event: "Pick up Phil & Gio from airport <b>(Note: Frontier most likely has a flight that lands at 3:28 PM)</b>",  icon: "fas fa-plane-arrival" },
       { event: "Arrive at Airbnb - Evening", icon: "fas fa-home" },
       { event: "Disney Springs (Jaleo and M&M World)", icon: "fas fa-glass-cheers" },
       { event: "Board Games or Trivia", icon: "fas fa-dice" }
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
       { event: "Breakfast - TBD", icon: "fas fa-utensils" },
       { event: "Wade's Coffee Demonstration", icon: "fas fa-coffee" },
       { event: "Jiu Jitsu Session with Jesse - Before Lunch", icon: "fas fa-fist-raised" },
-      { event: "Lunch (Keldon’s Nashville Hot)", icon: "fas fa-drumstick-bite" },
+      { event: "Lunch - Keldon’s Nashville Hot (& Whiskey Tasting)", icon: "fas fa-drumstick-bite" },
       { event: "Dinner at City Walk", icon: "fas fa-pizza-slice" },
       { event: "Universal Escape Room (5:30 PM - $373 total)", icon: "fas fa-lock" },
       { event: "Halloween Horror Nights w/ VIP Passes! - 6:30pm - 2:00am", icon: "fas fa-ghost" },
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
     ],
     "9/24": [
       { event: "Brunch/Coffee - TBD", icon: "fas fa-mug-hot" },
-      { event: "Taking Phil to The Airport - TBD", icon: "fas fa-plane-departure" }
+      { event: "Taking Phil & Gio to the Airport - TBD", icon: "fas fa-plane-departure" }
     ]
 
     
